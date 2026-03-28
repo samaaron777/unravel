@@ -1,9 +1,21 @@
-# unravel
-if wanting to add any new items
-- go to the admin site ( the code for admin site is in the core section)
-- create more categories and add more items within the category 
-- the data for the web page and the connection between the codebase and the webserver database is managed in urls.py. 
-- when making changes to the code base please make sure the urls.py is configured to show the changes in the web page.
+## Managing Data (Admin Panel)
+
+To add or manage items and categories:
+
+1. Access the Django admin panel at `/admin`
+2. Log in using admin credentials
+3. Create or update categories
+4. Add new items under the appropriate category
+
+The admin interface is configured using Django’s built-in admin system and allows efficient database management without modifying the codebase.
+
+---
+
+## URL Configuration
+
+The application uses Django’s URL routing system (`urls.py`) to map user requests to the appropriate views. 
+
+When adding new features or pages, ensure that the corresponding URL patterns are properly configured so they are accessible through the web interface.
 
 ## Future Improvements
 - Real-time messaging using WebSockets  
